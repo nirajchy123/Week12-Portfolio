@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+      My Personal Protfolio
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+               <H1> Protfolio</H1>
+            </div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Courses">Courses</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="Home">
+                    Hello!!! I am Niraj
+
+                </h1>
+                
+              <img src="image1.JPG" width="240px" height="190px">
+                <p class="text-small">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ipsum nam est amet, ratione maxime
+                    animi? Deserunt, nostrum! Aliquam nesciunt dolorum numquam. Sed eius vel sint velit? Facilis, velit
+                    quos.
+                </p> <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum neque cupiditate exercitationem hic,
+                    rem necessitatibus officia? Laboriosam beatae a voluptatem, vitae repellendus accusantium, quia
+                    praesentium itaque laborum quae tempora id quis necessitatibus quas eaque nemo error, quod cum
+                    facilis nihil omnis. Ab doloribus placeat minus id nostrum commodi amet nam!</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <h1 class="text-big" id="Service">
+                    Service
+                </h1>
+                <img src="image.jpg" width="200px" height="150px" >
+                <p class="text-small">
+                    C is a procedural programming language.
+                    It was initially developed by Dennis
+                    Ritchie as a system programming
+                    language to write operating system.
+                    The main features of C language include
+                    low-level access to memory, simple set
+                    of keywords, and clean style, these
+                    features make C language suitable for
+                    system programming like operating system
+                    or compiler development.
+                </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="Thirdsection">
+        <div class="box-main">
+            <div class="ThirdHalf">
+                <h1 class="text-big" id="Courses">
+                    Courses
+                </h1>
+                <p class="text-small">
+                <h1>HTML</h1>
+                C is a procedural programming language.
+                It was initially developed by Dennis
+                Ritchie as a system programming
+                language to write operating system.
+                The main features of C language include
+                low-level access to memory, simple set
+                of keywords, and clean style, these
+                features make C language suitable for
+                system programming like operating system
+                or compiler development.
+                </p>
+                <div class="h2">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officiis vel tempore earum
+                        porro facilis laudantium nihil voluptate sequi recusandae aut, maiores magni asperiores tenetur
+                        aspernatur repellat debitis vero perspiciatis nobis unde! Laudantium, nihil perspiciatis
+                        incidunt atque ad sequi perferendis vel eum eos soluta quisquam autem dolores consectetur?
+                        Deserunt, dolorem!</p>
+
+                </div>
+                <div class="h3">
+                    <h3> Figma</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi atque assumenda asperiores nam
+                        molestias laudantium eaque, aliquid praesentium voluptatibus, ut esse doloremque culpa obcaecati
+                        sapiente magni a, deleniti quis ipsum. Porro voluptatibus suscipit laborum quo! Autem repellat
+                        laudantium architecto eum. Facere aperiam sint minima. Blanditiis eaque sint eum odit
+                        praesentium beatae eos expedita veritatis vero accusantium facilis assumenda, quis labore
+                        nostrum esse at voluptatibus debitis aliquam harum rem placeat mollitia? Commodi esse repellat
+                        doloremque consectetur!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="foursection">
+        <div class="box-main">
+            <div class="fourHalf">
+                <h1 class="text-big" id="Contact">
+                    Contact Us
+                </h1>
+                <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+                    <script type="text/javascript">
+                        function ValidateForm(frm) {
+                            if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+                            if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+                            if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+                            if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+                            return true;
+                        }
+                    </script>
+                    <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+                        <tr>
+                            <td>
+                                <label for="Name">Name*:</label>
+                            </td>
+                            <td>
+                                <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="PhoneNumber">Phone number:</label>
+                            </td>
+                            <td>
+                                <input name="PhoneNumber" type="text" maxlength="43"
+                                    style="width:100%;max-width:250px;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="FromEmailAddress">Email address*:</label>
+                            </td>
+                            <td>
+                                <input name="FromEmailAddress" type="text" maxlength="90"
+                                    style="width:100%;max-width:250px;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Comments">Comments*:</label>
+                            </td>
+                            <td>
+                                <textarea name="Comments" rows="7" cols="40"
+                                    style="width:100%;max-width:350px;"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                * - required fields
+                            </td>
+                            <td>
+                                <div style="float:right"><a href="https://www.100forms.com" id="lnk100"
+                                        title="form to email">form </a></div>
+                                <input name="skip_Submit" type="submit" value="Submit" />
+                                <!-- <script src="https://www.100forms.com/js/FORMKEY:9YAW9WRAZ5M6/SEND:my@email.com" type="text/javascript"></script> -->
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+  
+
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+
+
+    </footer>
+</body>
+
+</html>
